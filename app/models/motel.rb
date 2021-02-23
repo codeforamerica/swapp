@@ -28,6 +28,6 @@ class Motel < ApplicationRecord
       
       # 4. store it 
       # {:longitude => -74.6968, :latitude => 40.7843}
-      # motel.coordinates = RGeo::Geographic.spherical_factory(srid: 4326, geo_type: "point").point(coords[:latitude], coords[:longitude])
+      # motel.coordinates = RGeo::Geographic.spherical_factory(srid: 4326, geo_type: "point").point(coords[:longitude], coords[:latitude])
     end
 end

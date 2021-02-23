@@ -63,3 +63,4 @@ gem 'ransack', github: 'activerecord-hackery/ransack'
 gem "awesome_print", "~> 1.8"
 
 gem "dotenv-rails"
+gem "activerecord-postgis-adapter", "~> 6.0"

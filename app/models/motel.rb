@@ -25,6 +25,7 @@ class Motel < ApplicationRecord
 
       # 3. parse geocode response
       # places = Mapbox::Geocoder.geocode_forward("Chester, NJ", {:proximity => {:longitude => -74.6968, :latitude => 40.7843}})
+      # {:longitude => -74.6968, :latitude => 40.7843}
       
       # 4. store it 
     end

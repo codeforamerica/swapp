@@ -54,6 +54,9 @@ GEM
     activerecord (6.0.3.5)
       activemodel (= 6.0.3.5)
       activesupport (= 6.0.3.5)
+    activerecord-postgis-adapter (6.0.1)
+      activerecord (~> 6.0)
+      rgeo-activerecord (~> 6.0)
     activestorage (6.0.3.5)
       actionpack (= 6.0.3.5)
       activejob (= 6.0.3.5)
@@ -175,6 +178,10 @@ GEM
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    rgeo (2.2.0)
+    rgeo-activerecord (6.2.2)
+      activerecord (>= 5.0)
+      rgeo (>= 1.0.0)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -234,6 +241,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-postgis-adapter (~> 6.0)
   awesome_print (~> 1.8)
   bootsnap (>= 1.4.2)
   byebug
